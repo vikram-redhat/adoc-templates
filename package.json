@@ -23,7 +23,7 @@
     "dev": "npm run gulp watch",
     "start": "npm run watch",
     "clean": "rm -rf node_modules && rm dev-preview/*.css && rm dev-preview/*.html",
-    "postinstall": "npm run build"
+    "postinstall": "gem install asciidoctor && npm run build"
   },
   "dependencies": {
     "@cpelements/cp-documentation": "^0.1.15",
